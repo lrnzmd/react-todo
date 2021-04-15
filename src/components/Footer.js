@@ -31,7 +31,7 @@ export default function Footer() {
         />
         All
       </label>
-      <p>You have {todos.length} to do</p>
+      <p>Cose fa fare {todos.length}</p>
       <button id="delete" onClick={deleteTodo}>Delete</button>
     </div>
   );
